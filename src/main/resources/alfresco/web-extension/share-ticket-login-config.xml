@@ -1,0 +1,13 @@
+<alfresco-config>
+  <config evaluator="string-compare" condition="Remote">
+    <remote>
+      <!-- Authenticator Implementations -->
+      <authenticator>
+        <id>alfresco-ticket</id>
+        <name>Alfresco Ticket Authenticator</name>
+        <description>Alfresco Ticket Authenticator</description>
+        <class>org.redpill.alfresco.webscripts.connector.AlfrescoTicketAuthenticator</class>
+      </authenticator>
+    </remote>
+  </config>
+</alfresco-config>
